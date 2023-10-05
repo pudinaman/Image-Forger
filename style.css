@@ -5,7 +5,7 @@
     box-sizing:border-box;
 }
 body{
-    background: #39297b;
+    background-image: linear-gradient(to right, #33001b, #ff0084);
     color:#fff;
 }
 h1{
