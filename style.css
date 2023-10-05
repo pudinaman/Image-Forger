@@ -18,7 +18,7 @@ form{
     max-width: 600px;
     margin:auto;
     height:80px;
-    background:#434989;
+    background-image: linear-gradient(to right, #a8c0ff, #3f2b96);
     display:flex;
     align-items:center;
     border-radius:8px;
