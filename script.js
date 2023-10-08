@@ -33,6 +33,7 @@ async function searchImages() {
         searchResult.appendChild(imageLink);
 
     });
+    showMoreBtn.style.display = "block";
 }
 
 //Search form Added for submition
