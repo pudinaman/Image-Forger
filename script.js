@@ -33,7 +33,7 @@ async function searchImages() {
         searchResult.appendChild(imageLink);
 
     });
-    showMoreBtn.style.display = "block";
+    searchMoreButton.style.display = "block";
 }
 
 //Search form Added for submition
@@ -45,3 +45,8 @@ searchForm.addEventListener("submit", (e) => {
 
     searchImages();
 });
+
+searchMoreButton.addEventListener("click", () => {
+    page++;
+    searchImages();
+})
