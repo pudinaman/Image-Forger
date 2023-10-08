@@ -14,7 +14,7 @@ async function searchImages() {
 
     keyword = searchBox.value;
 
-    const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}`;
+    const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}&per_page=12`;
 
     const response = await fetch(url);
     const data = await response.json();
@@ -37,7 +37,7 @@ async function searchImages() {
 
 //Search form Added for submition
 searchForm.addEventListener("submit", (e) => {
-    
+
     e.preventDefault();
 
     page = 1;
