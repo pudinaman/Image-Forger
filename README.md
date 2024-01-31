@@ -1,4 +1,4 @@
-# oss_p1_project
+# Image_forger_project
 This project envolves the use of api and using it to display image that are search in it
 
 An image search engine is a specialized type of search engine that allows users to find images on the internet based on their visual content. Unlike traditional text-based search engines, image search engines use visual recognition and analysis techniques to understand and retrieve images that match a user's query. Here's a more detailed description of an image search engine:
